@@ -3,10 +3,15 @@ import ExpirienceBar from '../components/ExpirienceBar';
 import Profile from '../components/Profile';
 import styles from '../styles/pages/Home.module.css';
 import CompletedChallenges from '../components/CompletedChallenges';
+import Coundown from '../components/Countdown';
+import Head from 'next/head';
 
 export default function Home() {
   return (
    <>
+   <Head>
+     <title>Inicio | Move.It</title>
+   </Head>
        <div className={styles.container}>
        <ExpirienceBar />
 
@@ -14,6 +19,7 @@ export default function Home() {
            <div>
            <Profile />
            <CompletedChallenges />
+           <Coundown />
              </div>
              <div>
 
