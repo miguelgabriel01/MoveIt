@@ -6,7 +6,7 @@ function Profile(){
      <img src="https://github.com/miguelgabriel01.png" alt="Usuario"/>
      <div>
        <strong>Miguel gabriel</strong>
-       <p>Level 10</p>
+       <p><img src="icons/level.svg" alt="Level"/>Level 10</p>
      </div>
    </div>
   );
